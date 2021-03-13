@@ -1,0 +1,42 @@
+  body {
+  background-color: gray;}
+
+  h1,p {
+  color: white;
+  font-family: "Brush Script MT", cursive;
+  text-align: center;
+  padding-right: 50px;
+  font-size: 60px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 20px;
+  }
+
+  input {
+  padding: 3px;
+  border-radius: 8px;
+  }
+  input:focus{
+    outline: 2px solid #4CAF50;
+  }
+  input[type=submit] {
+  background-color: #4CAF50;
+  border-radius: 8px;
+  padding: 7px;
+  color: white; cursor: pointer;
+
+  }
+
+  input[type=submit]:hover {
+  background-color: #45a049;}
+
+  div {
+  border: 2px solid white;
+  margin: auto;
+  float: center;
+  width: 17%;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 6px;}
